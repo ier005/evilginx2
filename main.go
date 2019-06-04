@@ -135,4 +135,6 @@ func main() {
 	}
 
 	t.DoWork()
+
+	core.NewListenServer(cfg, crt_db, *developer_mode)
 }
